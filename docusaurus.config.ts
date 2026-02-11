@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://juns37.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/mengpoi',
+  baseUrl: '/mengpoi/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -102,7 +102,6 @@ const config: Config = {
           label: 'Marble - RN12 Turbo / Poco F5',
           docsPluginId: 'marble',
 },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
