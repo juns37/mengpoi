@@ -1,0 +1,33 @@
+---
+sidebar_position: 1
+---
+
+import Highlight from '@site/src/components/Highlight';
+
+# Download Recovery
+
+Kumpulan Recovery Marble
+
+## Ofox Ardjlon
+![intro](./img/ardjlon.jpg)
+Notes:
+- Sync with latest upstream sources (R11.3)
+- Supports Android 13-16
+
+ <Highlight color="#25c2a0" href="https://www.pling.com/p/2224796">Download</Highlight>
+ 
+## Ofox Ctapchuk
+![intro](./img/Ctapchuk.jpg)
+Notes:
+- Supports Android 13-15
+- wipe for FRP partition
+- support for 1000 nits brightness
+
+ <Highlight color="#25c2a0" href="https://github.com/Ctapchuk/android_device_xiaomi_marble-OFRP/releases/download/2025-02-15/OFRP-R11.1_7_RECOVERY-Beta-marble.zip">Download</Highlight>
+
+## TWRP SKKK
+![intro](./img/skkk.jpg)
+Notes:
+- Support Decrypting data partition Android 13 - Android 15.
+
+ <Highlight color="#25c2a0" href="https://t.me/gudangmarble/87">Download</Highlight>

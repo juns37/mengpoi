@@ -1,0 +1,57 @@
+:root {
+  --ifm-color-primary: #4cbbd9;
+  --ifm-color-primary-dark: #3faac7;
+  --ifm-color-primary-darker: #379fbb;
+  --ifm-color-primary-darkest: #2d839a;
+  --ifm-color-primary-light: #5fc4df;
+  --ifm-color-primary-lighter: #6bcbe3;
+  --ifm-color-primary-lightest: #8ad8ea;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Mode */
+[data-theme='dark'] {
+  --ifm-color-primary: #4cbbd9;
+  --ifm-color-primary-dark: #3faac7;
+  --ifm-color-primary-darker: #379fbb;
+  --ifm-color-primary-darkest: #2d839a;
+  --ifm-color-primary-light: #5fc4df;
+  --ifm-color-primary-lighter: #6bcbe3;
+  --ifm-color-primary-lightest: #8ad8ea;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.highlight-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  padding: 8px 14px;
+  border-radius: 999px;
+
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+
+  color: var(--ifm-color-primary);
+  background: rgba(var(--ifm-color-primary-rgb), 0.12);
+
+  border: 1px solid rgba(var(--ifm-color-primary-rgb), 0.3);
+
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+.highlight-btn:hover {
+  background: rgba(var(--ifm-color-primary-rgb), 0.2);
+  color: var(--ifm-color-primary-dark);
+  text-decoration: none;
+}
+
+/* Active */
+.highlight-btn:active {
+  transform: scale(0.97);
+}

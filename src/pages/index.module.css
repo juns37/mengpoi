@@ -1,0 +1,96 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Kurangi padding bawah pada section */
+.supportSection {
+  padding: 2rem 0 0 0; /* Atas 2rem, bawah 0.5rem */
+  background-color: #f5f6f7;
+}
+
+[data-theme='dark'] .supportSection {
+  background-color: #121212;
+}
+
+/* Kurangi margin bawah pada kolom kartu */
+.cardCol {
+  margin-bottom: 2rem; /* Ubah dari 2rem ke 1rem */
+}
+
+/* Membuat kartu benar-benar putih bersih dengan bayangan lebih tegas */
+.customCard {
+  height: 100%;
+  background-color: #ffffff; /* Putih bersih */
+  border: none;
+  border-radius: 16px; /* Sudut lebih bulat sesuai gambar */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); /* Bayangan lebih dalam agar 'floating' */
+  transition: all 0.3s ease;
+  padding: 1rem;
+}
+
+[data-theme='dark'] .customCard {
+  background-color: #1e1e1e; /* Abu-abu gelap untuk kartu di mode dark */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.customCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Icon tetap menggunakan warna primer */
+.iconWrapper {
+  background-color: var(--ifm-color-primary);
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Merapikan jarak teks di dalam kartu */
+.customCard h3 {
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+.customCard p {
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.6;
+}
+
+/* Community Section tetap gelap sesuai gambar */
+.communitySection {
+  background-color: #000000;
+  color: white;
+  padding: 6rem 0;
+}
+
+[data-theme='dark'] .communitySection {
+  background-color: #000000; /* Tetap hitam pekat di dark mode */
+  border-top: 1px solid #333;
+}
