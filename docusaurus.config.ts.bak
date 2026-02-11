@@ -102,7 +102,6 @@ const config: Config = {
           label: 'Marble - RN12 Turbo / Poco F5',
           docsPluginId: 'marble',
 },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
