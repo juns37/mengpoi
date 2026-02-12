@@ -31,44 +31,65 @@ function HomepageHeader() {
 
 // Komponen Support (Tutorial Cards)
 function SupportSection() {
-  const cards = [
-    {
-      title: 'Marble',
-      description: 'RN12 Turbo / Poco F5 Tutorial.',
-      linkText: 'View',
-      link: '/marble/intro',
-      icon: '🌏',
-    },
-//    {
-//      title: 'Marble',
-//      description: 'Poco F5 / Redmi Note 12 Turbo.',
-//      linkText: 'View Tutorial',
-//      link: '/docs/marble/intro',
-//      icon: '💬',
-//    }, 
-  ];
+const cards = [
+  {
+    title: 'Marble',
+    description: 'RN12 Turbo / Poco F5.',
+    linkText: 'Dokumentasi',
+    link: '/marble/intro',
+    // Ganti ikon dengan tag img
+    icon: <img src="img/marble.png" alt="Marble Icon" className={styles.cardImageIcon} />,
+  },
+];
 
 
   return (
     <section className={styles.supportSection}>
       <div className="container">
         <div className="row">
+
           {cards.map((card, idx) => (
-            <div key={idx} className={clsx('col col--6', styles.cardCol)}>
-              <div className={clsx('card', styles.customCard)}>
-                <div className="card__body">
-                  <div className={styles.iconWrapper}>{card.icon}</div>
-                  <Heading as="h3">{card.title}</Heading>
-                  <p>{card.description}</p>
-                </div>
-                <div className="card__footer">
-                  <Link to={card.link} className="button button--link button--primary">
-                    {card.linkText} →
-                  </Link>
-                </div>
-              </div>
+
+            <div
+              key={idx}
+              className={clsx('col col--6', styles.cardCol)}
+            >
+
+              {/* LINK MEMBUNGKUS SELURUH CARD */}
+              <Link
+                to={card.link}
+                className={styles.cardLink}
+              >
+
+<div className={clsx('card', styles.customCard)}>
+  <div className="card__body">
+    {/* Bungkus Icon dan Title di sini */}
+    <div className={styles.headerWrapper}>
+      <div className={styles.iconWrapper}>
+        {card.icon}
+      </div>
+      <Heading as="h3" className={styles.cardTitle}>
+        {card.title}
+      </Heading>
+    </div>
+
+    <p>{card.description}</p>
+  </div>
+
+  <div className="card__footer">
+    <span className={styles.view}>
+      {card.linkText} →
+    </span>
+  </div>
+</div>
+
+
+              </Link>
+
             </div>
+
           ))}
+
         </div>
       </div>
     </section>

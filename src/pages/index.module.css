@@ -58,19 +58,6 @@
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
 }
 
-/* Icon tetap menggunakan warna primer */
-.iconWrapper {
-  background-color: var(--ifm-color-primary);
-  width: 48px;
-  height: 48px;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1.5rem;
-  font-size: 1.5rem;
-  color: white;
-}
 
 /* Merapikan jarak teks di dalam kartu */
 .customCard h3 {
@@ -93,4 +80,52 @@
 [data-theme='dark'] .communitySection {
   background-color: #000000; /* Tetap hitam pekat di dark mode */
   border-top: 1px solid #333;
+}
+
+.cardLink {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cardLink:hover {
+  text-decoration: none;
+}
+
+.customCard {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.customCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+.cardTitle {
+  margin-bottom: 0 !important; /* Menghilangkan margin bawaan Heading agar benar-benar sejajar */
+}
+
+/* Menyesuaikan ukuran gambar ikon agar seimbang dengan judul */
+.cardImageIcon {
+  width: 32px;      /* Sesuaikan ukuran sesuai keinginan */
+  height: 32px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Pastikan iconWrapper tidak membatasi ukuran gambar */
+.iconWrapper {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* HeaderWrapper yang kita buat sebelumnya tetap digunakan */
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 0.5rem;
 }
