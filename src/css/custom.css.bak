@@ -37,9 +37,16 @@
   background: #1f2937;
   border-radius: 14px;
   padding: 18px;
+
+  /* CENTER */
   display: flex;
-  align-items: center;
-  gap: 14px;
+  flex-direction: column;
+  align-items: center;      /* Tengah kiri-kanan */
+  justify-content: center; /* Tengah atas-bawah */
+  text-align: center;      /* Text rata tengah */
+
+  gap: 8px;
+
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
   text-decoration: none;
   color: inherit;
@@ -52,7 +59,7 @@
 }
 
 .marble-icon {
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .marble-title {

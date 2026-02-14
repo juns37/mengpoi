@@ -8,4 +8,6 @@ sidebar_position: 1
 
 import DeviceInfo from '@site/src/components/DeviceInfo';
 
+# Redmi Note 12 Turbo
+
 <DeviceInfo id="note12turbo" />

@@ -7,6 +7,8 @@ import Highlight from '@site/src/components/Highlight';
 
 Flash recovery Tanpa PC menggunakan aplikasi Bugjaeger sendiri dapat digunakan untuk berbagai merk dan type Android. Pastinya dengan catatan telah melakukan UBL ( unlock bootloader ) pada device yang akan dipasang Recovery.
 
+![intro](./img/bugja.jpg)
+
 Disini saya akan menggunakan device POCO F5 (marble) yang akan saya pasang Recovery, dan Rakuten Mini sebagai media instalasi nya. Intinya menggunakan device yang support otg, gunakan otg+kabel usb atau c to c jika ada.
  
 Yang menjadi pembeda POCO F5 dengan perangkat lain adalah adanya 2 slot pada partisi yang digunakan pada device ini, yaitu A dan B . maka dari itu perhatikan command ketika flash Recovery di POCO F5 .
@@ -14,6 +16,10 @@ Yang menjadi pembeda POCO F5 dengan perangkat lain adalah adanya 2 slot pada par
 ## Unduh Aplikasi: 
 
 <Highlight color="#25c2a0" href="https://play.google.com/store/apps/details?id=eu.sisik.hackendebug">Bugjaeger</Highlight>
+
+## Unduh Recovery:
+
+<Highlight color="#008080" href="/mengpoi/marble/recovery/download">Download Recovery</Highlight>
 
 ## Step Flash:
 1️⃣ Instal dan buka Bugjaeger pada Rakuten Mini
@@ -42,7 +48,7 @@ lalu klik mulai. Nanti akan muncul log seperti ini yg berarti sukses.
 
 Catatan, pada bagian saat flash pastikan Reflash after Installing ROM tercentang, agar recovery tidak hilang ketika flash custom rom baru.
 
-![intro](./img/recPC5.png)
+![intro](./img/reflash.png)
 
 Selesai.  
 Good Luck
