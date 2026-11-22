@@ -1,0 +1,49 @@
+{
+  "source": "https://t.me/PocoF5IDUpdates/4434",
+  "posted": "2026-11-16",
+  "name": "Axion OS v2.9",
+  "status": "UNOFFICIAL",
+  "android": "16",
+  "extra": [],
+  "updated": "2026-11-16",
+  "by": "[Mauls](http://t.me/Maulanariaddy)",
+  "banner": "img/axion-os-v29-4434.jpg",
+  "downloads": [
+    [
+      "Vanilla",
+      "https://sourceforge.net/projects/marble-release/files/AxionOS/axion-2.9-NOESIS-20261116-UNOFFICIAL-VANILLA-marble.zip/download"
+    ],
+    [
+      "Gapps",
+      "https://sourceforge.net/projects/marble-release/files/AxionOS/axion-2.9-NOESIS-20261116-UNOFFICIAL-GMS-marble.zip/download"
+    ]
+  ],
+  "links": [],
+  "support": [
+    [
+      "Support Group",
+      "https://t.me/mauls_build"
+    ]
+  ],
+  "donate": [
+    [
+      "THR/Donate",
+      "https://t.me/SMGLaboratoryCH/631",
+      "Others PM me"
+    ]
+  ],
+  "changelog_url": "https://telegra.ph/Axion-OS--Android-16-11-16",
+  "changelog": [],
+  "notes": [
+    "Firmware included",
+    "Dirty flash is not recommended",
+    "Included SUSFS & [KernelSU-Next Latest](https://t.me/ksunext_ci/15233)",
+    "Use [OFOX](https://t.me/mauls_build/45475)",
+    "[Required Flashing](https://t.me/mauls_build/58238)"
+  ],
+  "important": [],
+  "credits": [
+    "Brother [@SMGReborn](https://t.me/SMGReborn)",
+    "[Credits Build](https://telegra.ph/Credits-Build-07-23)"
+  ]
+}

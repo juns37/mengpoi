@@ -1,0 +1,47 @@
+{
+  "source": "https://t.me/PocoF5IDUpdates/4426",
+  "posted": "2026-11-13",
+  "name": "Googlebook - AluminiumOS",
+  "status": "",
+  "android": "17",
+  "extra": [],
+  "updated": "2026-11-13",
+  "by": "[@GustyxPower](https://t.me/GustyxPower)",
+  "banner": "img/googlebook-aluminiumos-4426.jpg",
+  "downloads": [
+    [
+      "Download",
+      "https://drive.google.com/file/d/1gzlsfGJQvbS-dYjcm9sEkuu9vcEPQgHE/view?usp=sharing"
+    ]
+  ],
+  "links": [
+    [
+      "Screenshot",
+      "https://t.me/CH_XtraManagerSoftware/1022?single"
+    ],
+    [
+      "Flashing Instructions",
+      "https://t.me/CH_XtraManagerSoftware/1027"
+    ]
+  ],
+  "support": [],
+  "donate": [],
+  "changelog_url": "https://t.me/CH_XtraManagerSoftware/1024",
+  "changelog": [],
+  "notes": [
+    "Ported From Laptop HP Googlebook 14",
+    "Based Vendor PalapaOS-Majapahit",
+    "Better Use Landscape Like Real 6969 Desktop :v",
+    "Firmware Include",
+    "Read Changelogs",
+    "[KernelSU Next 3.4.2](https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v3.4.2/KernelSU_Next_v3.4.2-spoofed_33355-release.apk) For Root"
+  ],
+  "important": [
+    "Do not change the kernel!,doing so will prevent the system from booting due to ARP.",
+    "Unable to Use Android 17 Default Terminal and Antigravity Due to Kernel 5.10 Limitations and HyperVisor",
+    "Landscape/Desktop Rotate, It's a bit difficult or even impossible to display Quick Settings because the Poco F5 screen has a small distance, so it has to be in portrait rotation or use Apps Toggle With the name Control Center that I created myself to display it."
+  ],
+  "credits": [
+    "Thanks Mystic For ARM64 Quartz ALOS Image System"
+  ]
+}

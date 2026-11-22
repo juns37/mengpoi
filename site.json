@@ -1,0 +1,32 @@
+{
+  "title": "Meng Pedia",
+  "tagline": "Sebuah coretan untuk masa ketika saya sudah tiada nanti.",
+  "base": "/mengpoi",
+  "url": "https://juns37.github.io",
+  "lang": "id",
+  "sections": [
+    { "id": "docs", "label": "Perkenalan", "icon": "waving_hand" },
+    { "id": "marble", "label": "Marble", "long": "Marble — RN12 Turbo / Poco F5", "icon": "smartphone" }
+  ],
+  "home": {
+    "cta": { "label": "Perkenalan · 5 menit", "href": "/docs/intro" },
+    "features": [
+      { "title": "Membaca", "image": "img/home0.png", "text": "Mengumpulkan informasi dasar: dokumentasi, tutorial, referensi, atau pengalaman orang lain." },
+      { "title": "Memahami", "image": "img/home1.png", "text": "Mencerna apa yang dibaca: mengerti konsep, alur kerja, sebab–akibat, dan risikonya. Bukan sekadar hafal." },
+      { "title": "Melakukan", "image": "img/home2.png", "text": "Menerapkan langsung: mencoba, gagal, memperbaiki, dan mengulang sampai benar-benar bisa." }
+    ],
+    "devices": [
+      { "title": "Marble", "text": "Redmi Note 12 Turbo / Poco F5", "image": "img/marble.png", "href": "/marble/intro" }
+    ]
+  },
+  "footer": [
+    { "title": "Komunitas", "links": [
+      ["Marble 🇮🇩", "https://t.me/mengpoi"],
+      ["Poco F5ㅣMarble 🇮🇩", "https://t.me/PocoF5indo"]
+    ]},
+    { "title": "Kontak", "links": [
+      ["Telegram", "https://t.me/juns37"],
+      ["GitHub", "https://github.com/juns37"]
+    ]}
+  ]
+}

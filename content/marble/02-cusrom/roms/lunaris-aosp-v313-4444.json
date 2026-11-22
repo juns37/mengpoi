@@ -1,0 +1,48 @@
+{
+  "source": "https://t.me/PocoF5IDUpdates/4444",
+  "posted": "2026-11-21",
+  "name": "Lunaris AOSP v3.13",
+  "status": "UNOFFICIAL",
+  "android": "16",
+  "extra": [],
+  "updated": "2026-07-13",
+  "by": "[Mauls](http://t.me/Maulanariaddy)",
+  "banner": "img/lunaris-aosp-v313-4444.jpg",
+  "downloads": [
+    [
+      "Vanilla",
+      "https://sourceforge.net/projects/testbuildmarble/files/Lunaris/Lunaris-AOSP-marble-Community-3.13-VANILLA-2026112010.zip/download"
+    ],
+    [
+      "Gapps",
+      "https://sourceforge.net/projects/testbuildmarble/files/Lunaris/Lunaris-AOSP-marble-Community-3.13-GMS-2026112105.zip/download"
+    ]
+  ],
+  "links": [],
+  "support": [
+    [
+      "Support Group",
+      "https://t.me/mauls_build"
+    ]
+  ],
+  "donate": [
+    [
+      "THR / Donate",
+      "https://t.me/SMGLaboratoryCH/631",
+      "Others PM me"
+    ]
+  ],
+  "changelog_url": "https://telegra.ph/Lunaris-AOSP--Android-16-11-21",
+  "changelog": [],
+  "notes": [
+    "Build Vanilla & Gapps Version",
+    "[Include SUSFS & KernelSU-Next Latest](https://t.me/ksunext_ci/15238)",
+    "Use [TWRP OFOX](https://t.me/mauls_build/45475)",
+    "[Required Flashing](https://t.me/mauls_build/58238)"
+  ],
+  "important": [],
+  "credits": [
+    "Brother [SMGReborn](http://t.me/SMGReborn)",
+    "[Credits Build](https://telegra.ph/Credits-Build-07-23)"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "source": "https://t.me/PocoF5IDUpdates/4430",
+  "posted": "2026-11-14",
+  "name": "PixelOS",
+  "status": "UNOFFICIAL",
+  "android": "17",
+  "extra": [],
+  "updated": "2026-11-14",
+  "by": "[@chaitanyabuilds](https://t.me/chaitanyabuilds)",
+  "banner": "img/pixelos-4430.jpg",
+  "downloads": [
+    [
+      "Gapps",
+      "https://sourceforge.net/projects/marble-builds/files/PixelOS/PixelOS_marble-17.0-20261113-1845.zip/download"
+    ],
+    [
+      "Mirror",
+      "https://dev.chaitanya.workers.dev/1:/pixelos/PixelOS_marble-17.0-20261113-1845.zip?a=view"
+    ]
+  ],
+  "links": [
+    [
+      "Screenshots",
+      "https://blog.pixelos.net/"
+    ],
+    [
+      "Flashing Instructions",
+      "https://graph.org/Flashing-Instructions-03-04"
+    ],
+    [
+      "Firmware",
+      "https://xmfirmwareupdater.com/firmware/marble/"
+    ],
+    [
+      "Credits",
+      "https://graph.org/Credits-12-09-11"
+    ]
+  ],
+  "support": [
+    [
+      "Support Group",
+      "https://t.me/chaitanyabuilds"
+    ]
+  ],
+  "donate": [
+    [
+      "Donate",
+      "https://graph.org/Donations-for-roms-11-17"
+    ]
+  ],
+  "changelog_url": "",
+  "changelog": [
+    "[Source](https://blog.pixelos.net/)",
+    "check more on my [Github](http://GitHub.com/chaitanyakm)"
+  ],
+  "notes": [
+    "check note #ksunext in support[group](https://t.me/chaitanyabuilds) for kernelsu",
+    "Bouquet kernel is fully supported",
+    "[orange fox](https://github.com/Ctapchuk/android_device_xiaomi_marble-OFRP/releases/download/2025-02-15/OFRP-R11.1_7_RECOVERY-Beta-marble.img) is compulsory",
+    "Please consider [DONATING](https://graph.org/Donations-for-roms-11-17)",
+    "Dirty flashable on old builds of mine",
+    "Hos3 global firmware is included in rom If you want you can flash your region hos3 firmware"
+  ],
+  "important": [],
+  "credits": []
+}

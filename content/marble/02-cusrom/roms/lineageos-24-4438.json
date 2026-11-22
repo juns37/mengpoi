@@ -1,0 +1,49 @@
+{
+  "source": "https://t.me/PocoF5IDUpdates/4438",
+  "posted": "2026-11-18",
+  "name": "LineageOS 24",
+  "status": "OFFICIAL",
+  "android": "17",
+  "extra": [],
+  "updated": "2026-11-17",
+  "by": "[@aelinuwu](https://t.me/aelinuwu) & [@ArianK16a](https://t.me/ArianK16a)",
+  "banner": "img/lineageos-24-4438.jpg",
+  "downloads": [
+    [
+      "Download",
+      "https://download.lineageos.org/devices/marble/builds"
+    ]
+  ],
+  "links": [
+    [
+      "Sources",
+      "https://github.com/cupid-development"
+    ],
+    [
+      "Wiki",
+      "https://lineage-wiki.mainlining.org/devices/marble"
+    ],
+    [
+      "XDA",
+      "https://xdaforums.com/t/rom-14-unofficial-lineageos-21-for-xiaomi-poco-f5-redmi-note-12-turbo.4655286/"
+    ]
+  ],
+  "support": [
+    [
+      "Support",
+      "https://t.me/polywaiparrot"
+    ],
+    [
+      "Playground HQ",
+      "https://t.me/PlaygroundHQ"
+    ]
+  ],
+  "donate": [],
+  "changelog_url": "https://download.lineageos.org/devices/marble/changes",
+  "changelog": [],
+  "notes": [
+    "Weekly automated build"
+  ],
+  "important": [],
+  "credits": []
+}

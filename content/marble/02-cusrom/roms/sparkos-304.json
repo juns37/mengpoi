@@ -1,0 +1,61 @@
+{
+  "source": "https://t.me/PocoF5IDUpdates/304",
+  "posted": "2023-10-12",
+  "name": "SparkOS",
+  "status": "UNOFFICIAL",
+  "android": "13",
+  "extra": [],
+  "updated": "2023-10-12",
+  "by": "[@SMGLaboratory](https://t.me/SMGLaboratory) [@Maulanariaddy](https://t.me/Maulanariaddy)",
+  "banner": "img/sparkos-304.jpg",
+  "downloads": [
+    [
+      "Gapps",
+      "https://t.me/mengpoi/32904/39852",
+      "2.2 GB"
+    ],
+    [
+      "Vanilla",
+      "https://sourceforge.net/projects/testbuildmarble/files/spark/vanilla/Spark-13.8-UNOFFICIAL-marble-20231012.zip/download"
+    ]
+  ],
+  "links": [
+    [
+      "Screenshot",
+      "https://t.me/SMGLaboratoryCH/312"
+    ]
+  ],
+  "support": [
+    [
+      "Support",
+      "https://t.me/SMGLaboratoryCH/3"
+    ]
+  ],
+  "donate": [
+    [
+      "Saweria",
+      "https://saweria.co/SMGLaboratory"
+    ],
+    [
+      "Paypal",
+      "https://paypal.me/SMGLaboratory"
+    ]
+  ],
+  "changelog_url": "https://telegra.ph/Changelog-10-12-4",
+  "changelog": [],
+  "notes": [
+    "Better Daily Use & Performance",
+    "Gapps + Vanilla Build",
+    "OSS Vendor",
+    "Download latest KernelSU Manager [from here.](https://github.com/tiann/KernelSU/releases/download/v0.6.8/KernelSU_v0.6.8_11238-release.apk)",
+    "KSU Support"
+  ],
+  "important": [],
+  "credits": [
+    "Tree OSS [YukongA](https://t.me/YuKongA)",
+    "Thanks All user marble for test 🙏🏻",
+    "Thanks for all dev on marble",
+    "[](https://t.me/Maulanariaddy)"
+  ],
+  "archived": true
+}

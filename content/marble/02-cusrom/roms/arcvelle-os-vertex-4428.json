@@ -1,0 +1,66 @@
+{
+  "source": "https://t.me/PocoF5IDUpdates/4428",
+  "posted": "2026-11-13",
+  "name": "Arcvelle OS Vertex",
+  "status": "OFFICIAL",
+  "android": "17",
+  "extra": [],
+  "updated": "2026-11-13",
+  "by": "ShadeDark6",
+  "banner": "img/arcvelle-os-vertex-4428.jpg",
+  "downloads": [
+    [
+      "GApps · Fastboot",
+      "https://sourceforge.net/projects/arcvelleos/files/vertex/marble/ArcvelleOS-vertex-official-marble-20261112-gapps-image.zip/download"
+    ],
+    [
+      "GApps · Recovery",
+      "https://sourceforge.net/projects/arcvelleos/files/vertex/marble/ArcvelleOS-vertex-official-marble-20261112-gapps.zip/download"
+    ],
+    [
+      "Vanilla · Fastboot",
+      "https://sourceforge.net/projects/arcvelleos/files/vertex/marble/vanilla/ArcvelleOS-vertex-official-marble-20261112-vanilla-image.zip/download"
+    ],
+    [
+      "Vanilla · Recovery",
+      "https://sourceforge.net/projects/arcvelleos/files/vertex/marble/vanilla/ArcvelleOS-vertex-official-marble-20261112-vanilla.zip/download"
+    ]
+  ],
+  "links": [
+    [
+      "Screenshots",
+      "https://t.me/arcvelleos/48?single"
+    ],
+    [
+      "Root Files",
+      "https://t.me/neotericmarbleupdates/965"
+    ],
+    [
+      "Source",
+      "https://github.com/ArcvelleOS"
+    ],
+    [
+      "Flashing Instructions",
+      "https://t.me/neotericmarble/52996"
+    ],
+    [
+      "Updates Channel",
+      "https://t.me/arcvelleos"
+    ]
+  ],
+  "support": [
+    [
+      "Support Group",
+      "https://t.me/neotericmarble"
+    ]
+  ],
+  "donate": [],
+  "changelog_url": "",
+  "changelog": [],
+  "notes": [
+    "Global HyperOS firmware is included.",
+    "GApps and Vanilla builds are available."
+  ],
+  "important": [],
+  "credits": []
+}

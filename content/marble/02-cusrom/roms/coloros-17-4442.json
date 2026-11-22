@@ -1,0 +1,54 @@
+{
+  "source": "https://t.me/PocoF5IDUpdates/4442",
+  "posted": "2026-11-19",
+  "name": "ColorOS 17",
+  "status": "PORT",
+  "android": "17",
+  "extra": [
+    "TWNTY 4.0",
+    "Global"
+  ],
+  "updated": "2026-11-19",
+  "by": "[@HABiiWieee](https://t.me/HABiiWieee) & [@YumeWieee](https://t.me/YumeWieee) | Twinity",
+  "banner": "img/coloros-17-4442.jpg",
+  "downloads": [
+    [
+      "Downloads",
+      "https://gofile.io/d/jnalQ7Q0"
+    ]
+  ],
+  "links": [
+    [
+      "Screenshots",
+      "https://t.me/trinonityupdates/290?single"
+    ],
+    [
+      "Flashing steps",
+      "https://telegra.ph/HAbb-07-17"
+    ]
+  ],
+  "support": [
+    [
+      "Support Group",
+      "https://t.me/+cnEdM2VJFwxhMDA1"
+    ]
+  ],
+  "donate": [],
+  "changelog_url": "https://telegra.ph/ColorOS-17-Global-for-marble-11-18",
+  "changelog": [],
+  "notes": [
+    "Everything you need to know its on post notes, read before asking questions.",
+    "Do not ask about integrity its DIY."
+  ],
+  "important": [],
+  "credits": [
+    "Special thanks for Jopvan helping us on building odm.",
+    "Also special thanks for Healer on 11r haptics.",
+    "LazyBones_LZY Special thanks for his fixes and camera.",
+    "Pzqqt, For Melt kernel sources.",
+    "Suggestion5, Sharkar69 for help and fix some bugs.",
+    "Danda for his template and fufuf4f4a for making script on marble.",
+    "RyukiMods for lunaris dolby.",
+    "For all porting devs too."
+  ]
+}

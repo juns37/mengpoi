@@ -1,41 +1,25 @@
-# Website
+# Meng Pedia
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Catatan oprek Android — https://juns37.github.io/mengpoi/
 
-## Installation
-
-```bash
-yarn
-```
-
-## Local Development
+Static site tanpa framework: `build.py` (Python 3.8+, tanpa dependency) mengubah Markdown di `content/` jadi HTML bergaya **Material 3 Expressive**.
 
 ```bash
-yarn start
+python3 build.py           # build ke ./build
+python3 build.py --serve   # preview http://localhost:8000/mengpoi/
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Push ke `main` → GitHub Actions build & deploy otomatis ke Pages.
 
-## Build
+| Path | Isi |
+|---|---|
+| `content/<section>/` | halaman Markdown (`01-nama.md` → `/section/nama`) |
+| `content/**/_category_.json` | label + deskripsi grup |
+| `content/devices.json` | data kartu `{{device id}}` |
+| `site.json` | judul, menu section, beranda, footer |
+| `static/` | disalin apa adanya ke root situs |
+| `theme/` | `style.css` (token M3) + `app.js` |
 
-```bash
-yarn build
-```
+Sintaks tambahan: tombol `[Teks](url){.btn}` / `{.btn-tonal}` / `{.btn-outline}`, kotak `:::tip Judul … :::` (`note` `info` `warning` `danger`), kartu device `{{device note12turbo}}`, langkah `1️⃣ …` otomatis jadi badge. Detail di halaman *Catatan saya*.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Post ROM: `python3 tools/tgrom.py <link t.me>` atau `--latest 10 PocoF5IDUpdates` → `content/marble/02-cusrom/roms/*.json` + banner.

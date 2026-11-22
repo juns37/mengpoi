@@ -1,0 +1,68 @@
+{
+  "source": "https://t.me/PocoF5IDUpdates/929",
+  "posted": "2024-03-10",
+  "name": "SuperiorOs-Extended",
+  "status": "OFFICIAL",
+  "android": "14",
+  "extra": [],
+  "updated": "2024-03-11",
+  "by": "[@kssrao13882](https://t.me/kssrao13882)",
+  "banner": "img/superioros-extended-929.jpg",
+  "downloads": [
+    [
+      "Gapps",
+      "https://t.me/mengpoi/32904/32907",
+      "1.9 GB"
+    ],
+    [
+      "Vanilla",
+      "https://sourceforge.net/projects/superiorextended/files/marble/vanilla/SuperiorExtended-OFFICIAL-14-marble-VANILLA-20240310-1434.zip/download"
+    ]
+  ],
+  "links": [
+    [
+      "Changelog · Device",
+      "https://github.com/SuperiorExtended/official_devices/blob/UDC/changelog/fourteen_marble.txt"
+    ],
+    [
+      "Screenshots",
+      "https://t.me/KSSRAO_Romverse/46485"
+    ],
+    [
+      "Flashing Instructions",
+      "https://github.com/kssrao13882/Changelog/blob/main/how2flash.md"
+    ],
+    [
+      "Updates Channel",
+      "https://t.me/superiorextendedOS"
+    ]
+  ],
+  "support": [
+    [
+      "Support Group",
+      "https://t.me/KSSRAO_Romverse"
+    ],
+    [
+      "Community Chat",
+      "https://t.me/superiorextendedSG"
+    ]
+  ],
+  "donate": [],
+  "changelog_url": "https://github.com/kssrao13882/Changelog/blob/main/source.md",
+  "changelog": [],
+  "notes": [
+    "Based on February Security Patch",
+    "Fixed sms and ott apps crash issue with Widevine back to L1",
+    "Ships with New Oneplus style QS",
+    "Ships with Moto Dolby and Dirac Sound",
+    "Those on SuperiorExtended that released on 18.02.24 can do OTA Update or dirty flash, for others clean flash is MUST",
+    "Based on HyperOS firmware"
+  ],
+  "important": [],
+  "credits": [
+    "[@Saikiran008](https://t.me/Saikiran008) for  base trees",
+    "[@No_912](https://t.me/No_912) team for Evenstar Kernel",
+    "[@Petrei50](https://t.me/Petrei50) & [@Abhinaba_Sarkar](https://t.me/Abhinaba_Sarkar) for testing"
+  ],
+  "archived": true
+}

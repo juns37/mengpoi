@@ -1,0 +1,15 @@
+{
+  "note12turbo": {
+    "name": "Redmi Note 12 Turbo",
+    "alias": "Poco F5 · marble",
+    "storage": "1000 GB / 1 TB",
+    "storageBar": [45, 25, 15],
+    "specs": [
+      ["Processor", "Snapdragon 7+ Gen 2"],
+      ["Battery", "5000 mAh"],
+      ["RAM", "16 GB"],
+      ["Camera", "64MP + 8MP + 2MP"],
+      ["Display", "6.67 inch"]
+    ]
+  }
+}

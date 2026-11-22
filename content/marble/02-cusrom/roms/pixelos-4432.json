@@ -1,0 +1,59 @@
+{
+  "source": "https://t.me/PocoF5IDUpdates/4432",
+  "posted": "2026-11-15",
+  "name": "PixelOS",
+  "status": "UNOFFICIAL",
+  "android": "17",
+  "extra": [],
+  "updated": "2026-11-14",
+  "by": "[@Newpictube](https://t.me/Newpictube)",
+  "banner": "img/pixelos-4432.jpg",
+  "downloads": [
+    [
+      "Download",
+      "https://drive.google.com/drive/folders/1MtcARskCoMVE9kQuh6ERKQ7S6gQOPhuY?usp=sharing"
+    ],
+    [
+      "Recovery",
+      "https://drive.google.com/drive/folders/1k3k58uftE_o9d3AG99wBwLg9RLp7i2R7?usp=sharing"
+    ]
+  ],
+  "links": [
+    [
+      "Kernel source",
+      "https://github.com/tgiraud2007/android_kernel_xiaomi_sm8450-6.6/tree/seventeen"
+    ],
+    [
+      "Device sources",
+      "https://github.com/tgiraud2007/local_manifests/tree/seventeen"
+    ]
+  ],
+  "support": [
+    [
+      "Support Group",
+      "https://t.me/ThomasBuildsChat"
+    ]
+  ],
+  "donate": [],
+  "changelog_url": "",
+  "changelog": [
+    "November 2026 security patch.",
+    "Linux kernel 6.6.144 with KernelSU Next v3.4.2 built in.",
+    "Added Dolby Atmos with the stock POCO F5 tuning.",
+    "Added MIUI Camera.",
+    "Added adjustable flashlight strength.",
+    "Fixed the photo picker in some apps (e.g. ChatGPT).",
+    "Fixed Instagram \"Instants\" (dual camera).",
+    "Fixed offline charging."
+  ],
+  "notes": [
+    "POCO F5 / Redmi Note 12 Turbo — marble / marblein.",
+    "GApps and firmware included.",
+    "Dirty flash supported from my previous builds.",
+    "Clean flash required when switching from another ROM or maintainer."
+  ],
+  "important": [],
+  "credits": [
+    "PixelOS, LineageOS, cupid-development, Evolution X and contributors."
+  ]
+}

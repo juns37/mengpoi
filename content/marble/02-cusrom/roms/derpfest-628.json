@@ -1,0 +1,42 @@
+{
+  "source": "https://t.me/PocoF5IDUpdates/628",
+  "posted": "2023-12-30",
+  "name": "DerpFest",
+  "status": "OFFICIAL",
+  "android": "13",
+  "extra": [],
+  "updated": "",
+  "by": "[@JYR_RC](https://t.me/JYR_RC)",
+  "banner": "img/derpfest-628.jpg",
+  "downloads": [
+    [
+      "Download",
+      "https://t.me/mengpoi/32904/34169",
+      "2.1 GB"
+    ]
+  ],
+  "links": [],
+  "support": [
+    [
+      "Support",
+      "https://t.me/derpfestmarble"
+    ]
+  ],
+  "donate": [],
+  "changelog_url": "https://telegra.ph/Changelog-DerpFest-Android-13-Marble-12-30",
+  "changelog": [],
+  "notes": [
+    "Based on december security patch",
+    "Gapps are included",
+    "Leica camera included",
+    "SafetyNet pass default"
+  ],
+  "important": [],
+  "credits": [
+    "[@YuKongA](https://t.me/YuKongA)  for trees",
+    "[@rama982](https://t.me/rama982) for kernel",
+    "[@unmoved21](https://t.me/unmoved21) My Brother",
+    "NurKeinNeid For sources"
+  ],
+  "archived": true
+}
